@@ -1,0 +1,34 @@
+.App {
+  text-align: center;
+}
+
+#title {
+  background-color: grey;
+  padding: 50px 50px;
+}
+
+#movieList {
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-top:-50px; 
+  margin-left:-200px;
+  width: 25%;
+}
+
+#movieListEntry {
+}
+
+p {
+  border: 1px solid black;
+  font-size: 25px;
+  margin: 0px 0px;
+  padding: 20px 20px;
+
+
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
